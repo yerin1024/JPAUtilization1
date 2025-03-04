@@ -11,6 +11,7 @@ spring:
       hibernate:
         #show_sql: true #hibernate가 생성하는 sql을 모두 볼 수 있음 (sout)
         format_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
 logging:
   level:
     org.hibernate.SQL: debug #hibernate가 생성하는 sql을 모두 볼 수 있음 (logger)
